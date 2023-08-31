@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>English to Hindi Converter and Typing Speed Test</title>
+</head>
+<body class="container-fluid">
+  <h3><u>English to Hindi Converter</u></h3>
+  <div>
+    <label for="englishInput">Type in English:</label>
+    <input type="text" id="englishInput" />
+
+    <div class="converter-output">
+      <a href="#" class="select-option">
+        <p id="hindiOutput"></p>
+      </a>
+    </div>
+  </div>
+
+  <h3><u>Typing Speed Test (Hindi)</u></h3>
+  <p class="paragraph">सफलता जाहिर करने का सबसे अच्छा तरीका है कि सफलता तक पहुँचने वाले सभी मार्गों का विश्लेषण करें।</p>
+  <textarea id="user-input" placeholder="Start typing here..."></textarea>
+  <button id="start-btn">Start Test</button>
+  <p class="time">Time: <span id="time-display">0</span> seconds</p>
+  <p class="accuracy">Accuracy: <span id="accuracy-display">0</span>%</p>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
